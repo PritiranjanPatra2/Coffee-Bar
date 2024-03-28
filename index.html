@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+
+        height: 40vh;
+
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 0px 8px black;
+      }
+      input {
+        background-color: #631212;
+        height: 15%;
+        width: 70%;
+        padding: 1rem;
+        border-radius: 1rem;
+
+        color: #fff0c2;
+        border: none;
+        position: sticky;
+        top: 7rem;
+        left: 10%;
+      }
+      .menu{
+        margin-top: 3px;
+        background-color: #EDD4D4;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .menu .image{
+        display: flex;
+        justify-content:space-around;
+        /* align-items: center; */
+        /* border: 2px solid black; */
+        padding: 2%;
+        flex-wrap: wrap;
+      }
+      .menu .image img{
+        height: 9.5rem;
+        width: 9.5rem;
+        border-radius: 50%;
+        box-shadow: 1px 2px 3px black;
+    
+      }
+      .about{
+        display: flex;
+        flex-direction: column;
+        border: 5px solid #D59C9C;
+        border-radius: 20px;
+        /* margin: 20px; */
+        background-color: #D7A1A1;
+        color: #A52A2A;
+        box-shadow: 3px 4px 5px #D59C9C;
+        margin-bottom: 2rem;
+
+      }
+      .box{
+        margin: 10px;
+      }
+      .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 5px solid #D59C9C;
+        background-color: #D7A1A1;
+        border-radius: 20px;
+        box-shadow: 3px 4px 5px #D59C9C;
+        color: #A52A2A;
+      }
+     .list-item{
+      padding: 10px 25px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" value="Search" />
+    </div>
+    <div class="menu">
+      <div class="image">
+        <img src="img/1.jpg" alt="" />
+        <img src="img/2.jpg" alt="" />
+        <img src="img/3.jpg" alt="" />
+        <img src="img/4.jpg" alt="" />
+      </div>
+      <div class="about">
+        <h1 class="box">Coffee-House</h1>
+        <p class="box">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+          accusantium hic omnis tenetur quibusdam ratione? Odit impedit sint
+          iste. Nisi sint exercitationem eaque, doloribus itaque, suscipit
+          numquam praesentium, assumenda sit quisquam est excepturi officiis
+          dolor facere reiciendis magnam consequuntur illum tempore et eligendi!
+          Iste laboriosam nihil distinctio unde, cupiditate harum quos dolores?
+          Aspernatur inventore rerum eius voluptatem! Deleniti totam molestiae
+          voluptate consequuntur, a quaerat aspernatur, obcaecati aliquid ex
+          repellat cumque ipsam, eius pariatur distinctio? Maiores magnam ea
+          minima consequatur? Officia quia ipsam porro nisi, quisquam assumenda
+          fugit autem necessitatibus dolores laudantium quam iste dolorem ex
+          voluptate aperiam deserunt consequuntur voluptates.
+        </p>
+        <p class="box">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          repudiandae incidunt vel molestiae vero facere distinctio! Vitae
+          delectus corrupti ipsam, tempora quibusdam enim. Ea delectus neque
+          obcaecati voluptatum labore expedita reprehenderit inventore voluptate
+          nam? Pariatur.
+        </p>
+        <p class="box">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
+          nostrum tempore ipsam, laboriosam, quae rem praesentium hic
+          repudiandae nulla illum dolorum ratione, omnis dolores impedit nam
+          maiores. Error amet vel vitae natus, vero sit, quo eaque veniam
+          ducimus suscipit est dolorum facere cupiditate, illum delectus.
+        </p>
+      </div>
+      <div class="list">
+        <h1 class="list-item">Coffee List</h1>
+        <ol class="list-item">
+          <li>Coffee-1</li>
+          <li>Coffee-2</li>
+          <li>Coffee-3</li>
+          <li>Coffee-4</li>
+          <li>Coffee-5</li>
+          <li>Coffee-6</li>
+        </ol>
+        <p class="list-item">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+          sequi blanditiis sit praesentium cupiditate quibusdam animi culpa
+          repellat, id maiores iusto debitis, incidunt molestias. Lorem, ipsum
+          dolor sit amet consectetur adipisicing elit. Ea, ipsam? Cupiditate
+          corporis consectetur nulla incidunt ex distinctio, alias dolore beatae
+          repellat molestias. Nostrum!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
